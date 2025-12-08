@@ -1,0 +1,9 @@
+services:
+  web:
+    image: nginx:alpine
+    container_name: trkulja_website
+    ports:
+      - "8888:80"
+    volumes:
+      - ./website:/usr/share/nginx/html
+    restart: always

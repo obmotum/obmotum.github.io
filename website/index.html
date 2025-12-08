@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aleksandar Trkulja - IT Professional & Backend Developer</title>
+    <meta name="description" content="Persönliche Website von Aleksandar Trkulja - Senior IT Consultant, System Administrator und Backend Developer mit über 20 Jahren Erfahrung.">
+    <link rel="stylesheet" href="style.css?v=1.4">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <!-- Font Awesome für Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts: Raleway (wie im CV) -->
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        /* Inline styles for transition to prevent FOUC or simple fade */
+        [data-i18n] {
+            transition: opacity 0.2s ease-in-out;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">Trkulja.it</a>
+            <ul class="nav-links">
+                <li><a href="#about" data-i18n="nav_about">Über mich</a></li>
+                <li><a href="#skills" data-i18n="nav_skills">Kompetenzen</a></li>
+                <li><a href="#experience" data-i18n="nav_experience">Erfahrung</a></li>
+                <li><a href="#contact" data-i18n="nav_contact">Kontakt</a></li>
+                <li class="lang-switch">
+                    <a href="#" class="lang-btn active" data-lang="de">DE</a>
+                    <span class="lang-separator">|</span>
+                    <a href="#" class="lang-btn" data-lang="en">EN</a>
+                </li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="container hero-content">
+            <h1 data-i18n="hero_title">Aleksandar Trkulja</h1>
+            <h2 data-i18n="hero_subtitle">Senior IT Consultant & Backend Developer</h2>
+            <p data-i18n="hero_desc">Über 20 Jahre Erfahrung in Systemadministration, Infrastruktur-Modernisierung und Softwareentwicklung.</p>
+            <div class="hero-btns">
+                <a href="#contact" class="btn btn-primary" data-i18n="btn_contact">Kontakt aufnehmen</a>
+                <a href="#experience" class="btn btn-secondary" data-i18n="btn_experience">Mein Werdegang</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title" data-i18n="about_title">Über mich</h2>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p data-i18n="about_p1">
+                        Als hochqualifizierter IT-Profi blicke ich auf eine umfangreiche Karriere zurück, die sich über drei Jahrzehnte erstreckt. 
+                        Meine Leidenschaft liegt in der Lösung komplexer technischer Herausforderungen – sei es durch die Verwaltung robuster Windows-Server-Umgebungen, 
+                        die Automatisierung von Prozessen mittels Ansible und PowerShell oder die Entwicklung maßgeschneiderter Backend-Lösungen.
+                        Dabei lege ich großen Wert auf strukturierte und nachhaltige IT-Dokumentation (LaTeX, Netbox, Wiki).
+                    </p>
+                    <p data-i18n="about_p2">
+                        Ich verbinde tiefes technisches Wissen mit strategischem Denken. Von der Leitung von IT-Abteilungen bis hin zum "Hands-on" Troubleshooting 
+                        in gemischten Umgebungen (Windows/Linux) – mein Ziel ist es stets, effiziente, sichere und zukunftssichere IT-Landschaften zu schaffen.
+                    </p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-item">
+                        <span class="stat-number">20+</span>
+                        <span class="stat-label" data-i18n="stat_years">Jahre Erfahrung</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">20+</span>
+                        <span class="stat-label" data-i18n="stat_windows">Jahre Windows Server</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">15+</span>
+                        <span class="stat-label" data-i18n="stat_virtual">Jahre Virtualisierung</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title" data-i18n="skills_title">Kernkompetenzen</h2>
+            <div class="skills-grid">
+                <!-- Skill Category 1 -->
+                <div class="skill-card">
+                    <i class="fa-solid fa-server skill-icon"></i>
+                    <h3 data-i18n="skill_windows_title">Server Administration</h3>
+                    <ul>
+                        <li>Windows Server (2003-2025)</li>
+                        <li>Linux (Ubuntu Server)</li>
+                        <li>Active Directory & Azure AD</li>
+                        <li>Microsoft Exchange & M365</li>
+                    </ul>
+                </div>
+                <!-- Skill Category 2 -->
+                <div class="skill-card">
+                    <i class="fa-solid fa-cloud skill-icon"></i>
+                    <h3 data-i18n="skill_virtual_title">Virtualisierung & Cloud</h3>
+                    <ul>
+                        <li>VMware vSphere & Workstation</li>
+                        <li>Azure Stack HCI</li>
+                        <li>Microsoft Hyper-V</li>
+                        <li>Docker & Portainer</li>
+                    </ul>
+                </div>
+                <!-- Skill Category 3 -->
+                <div class="skill-card">
+                    <i class="fa-solid fa-terminal skill-icon"></i>
+                    <h3 data-i18n="skill_auto_title">Automation & Dev</h3>
+                    <ul>
+                        <li>Ansible & PowerShell</li>
+                        <li>Python & C# / .NET</li>
+                        <li>Bash & Git</li>
+                        <li>IT-Doku (LaTeX, Netbox, Wiki)</li>
+                    </ul>
+                </div>
+                <!-- Skill Category 4 -->
+                <div class="skill-card">
+                    <i class="fa-solid fa-network-wired skill-icon"></i>
+                    <h3 data-i18n="skill_net_title">Netzwerk & Security</h3>
+                    <ul>
+                        <li>Firewalls (Fortinet, Sophos)</li>
+                        <li>TCP/IP, VLAN, VPN</li>
+                        <li>Backup (Veeam, StorageCraft)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section">
+        <div class="container">
+            <h2 class="section-title" data-i18n="exp_title">Beruflicher Werdegang</h2>
+            <div class="timeline">
+                
+                <!-- Job 1 -->
+                <div class="timeline-item">
+                    <div class="timeline-date">08/2021 – <span data-i18n="exp_today">Heute</span></div>
+                    <div class="timeline-content">
+                        <h3 data-i18n="job1_title">Senior IT Consultant / Support Engineer</h3>
+                        <h4>Dytech IT-Solutions, Willich</h4>
+                        <p data-i18n="job1_desc">
+                            Beratung von Kunden bei der Infrastrukturmodernisierung und IT-Strategie. 
+                            Design und Implementierung von Lösungen (Windows/Linux, Virtualisierung). 
+                            3rd-Level-Support und Entwicklung von Automatisierungslösungen (Ansible, Python).
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Job 2 -->
+                <div class="timeline-item">
+                    <div class="timeline-date">09/2019 – 01/2021</div>
+                    <div class="timeline-content">
+                        <h3 data-i18n="job2_title">IT Manager</h3>
+                        <h4>GEBAB Treuhandgesellschaft mbH & Co. KG</h4>
+                        <p data-i18n="job2_desc">
+                            Leitung des gesamten IT-Betriebs und der IT-Strategie. 
+                            Verantwortung für Budget, Beschaffung und Sicherheit. 
+                            Führung und Mentoring des IT-Teams.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Job 3 -->
+                <div class="timeline-item">
+                    <div class="timeline-date">07/2010 – 08/2019</div>
+                    <div class="timeline-content">
+                        <h3 data-i18n="job3_title">Senior System Administrator & Developer</h3>
+                        <h4>GEBAB Treuhandgesellschaft mbH & Co. KG</h4>
+                        <p data-i18n="job3_desc">
+                            Administration von Windows Servern, Exchange und VMware&nbsp;Umgebungen. 
+                            Entwicklung eigener Geschäftsanwendungen in C# und&nbsp;.NET. 
+                            Automatisierung administrativer Aufgaben mittels PowerShell.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Job 4 -->
+                <div class="timeline-item">
+                    <div class="timeline-date">08/2005 – 10/2009</div>
+                    <div class="timeline-content">
+                        <h3 data-i18n="job4_title">IT System Administrator</h3>
+                        <h4>WirCom - IT-Guard GmbH</h4>
+                        <p data-i18n="job4_desc">
+                            Verantwortlich für den kompletten Lebenszyklus von Servern und Workstations. 
+                            Technischer Support für diverse externe Kunden.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section bg-dark">
+        <div class="container">
+            <h2 class="section-title text-white" data-i18n="contact_title">Kontakt</h2>
+            <p class="contact-intro" data-i18n="contact_intro">Haben Sie Interesse an einer Zusammenarbeit oder möchten Sie mehr erfahren? Ich freue mich auf Ihre Nachricht.</p>
+            
+            <div class="contact-cards">
+                <a href="mailto:aleks@trkulja.it" class="contact-card">
+                    <i class="fa-solid fa-envelope"></i>
+                    <span>aleks@trkulja.it</span>
+                </a>
+                <a href="https://www.linkedin.com/in/aleksandar-trkulja-222646137/" target="_blank" class="contact-card">
+                    <i class="fa-brands fa-linkedin"></i>
+                    <span>LinkedIn Profil</span>
+                </a>
+                <div class="contact-card">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <span>Mönchengladbach, Deutschland</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Aleksandar Trkulja. <span data-i18n="footer_rights">Alle Rechte vorbehalten.</span> | <a href="impressum.html" data-i18n="imprint_link">Impressum</a></p>
+        </div>
+    </footer>
+
+    <script src="script.js?v=1.4"></script>
+</body>
+</html>
