@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 - Aleksandar Trkulja</title>
+    <link rel="stylesheet" href="style.css?v=1.5">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        [data-i18n] {
+            transition: opacity 0.2s ease-in-out;
+        }
+        .error-page {
+            min-height: 60vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        .error-icon {
+            font-size: 5rem;
+            color: var(--primary-color);
+            margin-bottom: 1rem;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">Trkulja.it</a>
+            <ul class="nav-links">
+                <li><a href="index.html" data-i18n="nav_home">Zurück zur Startseite</a></li>
+                <li class="lang-switch">
+                    <a href="#" class="lang-btn active" data-lang="de">DE</a>
+                    <span class="lang-separator">|</span>
+                    <a href="#" class="lang-btn" data-lang="en">EN</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- 404 Content -->
+    <section class="section error-page">
+        <div class="container">
+            <i class="fa-solid fa-triangle-exclamation error-icon"></i>
+            <h1 class="section-title" data-i18n="error_404_title">404 - Seite nicht gefunden</h1>
+            <p data-i18n="error_404_desc">Die angeforderte Seite konnte nicht gefunden werden.</p>
+            <br>
+            <a href="index.html" class="btn btn-primary" data-i18n="nav_home">Zurück zur Startseite</a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Aleksandar Trkulja. <span data-i18n="footer_rights">Alle Rechte vorbehalten.</span> | <a href="impressum.html" data-i18n="imprint_link">Impressum</a></p>
+        </div>
+    </footer>
+
+    <script src="script.js?v=1.4"></script>
+</body>
+</html>

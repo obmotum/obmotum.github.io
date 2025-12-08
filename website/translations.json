@@ -38,7 +38,9 @@
         "imprint_legal": "Angaben gemäß § 5 TMG",
         "imprint_contact": "Kontakt",
         "imprint_responsible": "Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV",
-        "nav_home": "Zurück zur Startseite"
+        "nav_home": "Zurück zur Startseite",
+        "error_404_title": "404 - Seite nicht gefunden",
+        "error_404_desc": "Die angeforderte Seite konnte nicht gefunden werden."
     },
     "en": {
         "nav_about": "About Me",
@@ -79,6 +81,8 @@
         "imprint_legal": "Information according to § 5 TMG",
         "imprint_contact": "Contact",
         "imprint_responsible": "Responsible for content according to § 55 Abs. 2 RStV",
-        "nav_home": "Back to Home"
+        "nav_home": "Back to Home",
+        "error_404_title": "404 - Page Not Found",
+        "error_404_desc": "The requested page could not be found."
     }
 }
