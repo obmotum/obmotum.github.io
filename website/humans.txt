@@ -1,0 +1,7 @@
+/* TEAM */
+Developer: Aleksandar Trkulja
+Site: trkulja.it
+
+/* THANKS */
+GitHub for hosting
+Nginx Proxy Manager for routing
