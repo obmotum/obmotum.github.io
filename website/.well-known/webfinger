@@ -1,0 +1,9 @@
+{
+  "subject": "acct:aleks@trkulja.it",
+  "links": [
+    {
+      "rel": "http://openid.net/specs/connect/1.0/issuer",
+      "href": "https://login.trkulja.it/realms/trkulja.it"
+    }
+  ]
+}
